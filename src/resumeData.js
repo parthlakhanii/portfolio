@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: 'https://www.linkedin.com/in/parthlakhanii/',
   skypeid: 'Your skypeid',
   roleDescription:
-    ' Experienced Full Stack Developer with a demonstrated history of working in the IT industry. While working as a Software developer I have worked in various technologies following agile methodologies with weekly sprints. Gained knowledge working in Frontend and Backend. Exploring new technologies and concepts every day, always open to new opportunities.',
+    'Experienced Full Stack Developer with a demonstrated history of working in the IT industry. While working as a Software developer I have worked in various technologies following agile methodologies with weekly sprints. Gained knowledge working in Frontend and Backend. Exploring new technologies and concepts every day, always open to new opportunities.',
   socialLinks: [
     {
       name: 'linkedin',
