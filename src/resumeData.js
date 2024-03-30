@@ -88,7 +88,7 @@ let resumeData = {
       url: 'https://github.com/parthlakhanii/news-aggregator',
     },
     {
-      name: 'Wen Search Engine',
+      name: 'Web Search Engine',
       description: 'Basic web search engine using Java and Angular',
       imgurl: 'images/WSE.png',
       url: 'https://github.com/parthlakhanii/webSearch-backend',
