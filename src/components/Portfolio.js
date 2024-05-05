@@ -15,10 +15,10 @@ export default class Porfolio extends Component {
                 resumeData.portfolio.map((item) => {
                   return (
                     <div className='columns portfolio-item'>
-                      <div target='_blank' className='item-wrap'>
-                        <a href={item.url}>
+                      <div className='item-wrap'>
+                        <a target='_window' href={item.url}>
                           <img src={`${item.imgurl}`} className='item-img' />
-                          <div target='_blank' className='overlay'>
+                          <div target='_window' className='overlay'>
                             <div className='portfolio-item-meta'>
                               <h5>{item.name}</h5>
                               <p>{item.description}</p>
