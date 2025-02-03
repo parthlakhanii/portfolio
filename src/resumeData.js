@@ -84,19 +84,19 @@ let resumeData = {
       name: "News Aggregator",
       description:
         "Minimal news aggregator app build using React, Node, Mongodb and, Material-ui",
-      imgUrl: "portfolio/images/news-aggregator.png",
-      url: "https://github.com/parthlakhanii/news-aggregator",
+      imgUrl: "images/news-aggregator.png",
+      url: "https://parthlakhanii.github.io/news-aggregator",
     },
     {
       name: "Web Search Engine",
       description: "Basic web search engine using Java and Angular",
-      imgUrl: "portfolio/images/WSE.png",
+      imgUrl: "images/WSE.png",
       url: "https://github.com/parthlakhanii/webSearch-backend",
     },
     {
       name: "Diet-Mate",
       description: "Python and Angular based Diet Management System",
-      imgUrl: "portfolio/images/DM.png",
+      imgUrl: "images/DM.png",
       url: "https://gitlab.cs.uwindsor.ca/lakha117/diet-mate-webapp",
     },
   ],
