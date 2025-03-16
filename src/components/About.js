@@ -88,7 +88,7 @@ const About = ({ resumeData }) => {
               <div className="image-frame">
                 <div className="image-wrapper">
                   <img
-                    src="portfolio/images/Parth.jpg"
+                    src="images/Parth.jpg"
                     alt="Parth Lakhani"
                     className="profile-img"
                   />
