@@ -47,9 +47,10 @@ const resumeData = {
       MonthOfStarting: "April",
       MonthOfLeaving: "Present",
       description: [
-        "Implement address validation within SAP Commerce Cloud, integrating backend services and frontend components to ensure accurate data, streamline processing, and boost operational efficiency by 25%.",
-        "Establish a comprehensive testing strategy, including integration tests, unit tests (JUnit, Jest), and end-to-end tests (Cypress, Karate) to improve test coverage, code reliability, and system stability.",
-        "Create detailed documentation and knowledge-sharing resources, streamlining onboarding for new developers.",
+        "Optimized the checkout process within SAP Commerce Cloud, improving user experience, data accuracy, and transaction efficiency.",
+        "Implemented address validation, integrating backend services and frontend components to enhance payment accuracy and user experience.",
+        "Established a comprehensive testing strategy, including integration tests, unit tests (JUnit, Jest), and end-to-end tests (Cypress, Karate) to improve test coverage, code reliability, and system stability.",
+        "Created detailed documentation and knowledge-sharing resources, streamlining onboarding for new developers.",
       ],
     },
     {
