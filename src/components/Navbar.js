@@ -16,7 +16,7 @@ const Navbar = ({ resumeData }) => {
   return (
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
       <div className="navbar-container">
-        <a href="/" className="navbar-logo">
+        <a href="/portfolio" className="navbar-logo">
           PL
         </a>
         <div className={`navbar-menu ${isMenuOpen ? "active" : ""}`}>
