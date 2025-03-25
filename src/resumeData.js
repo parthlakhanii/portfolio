@@ -2,7 +2,7 @@ const resumeData = {
   name: "Parth Lakhani",
   role: "Full Stack Developer",
   roleDescription:
-    "Experienced Full Stack Developer with a demonstrated history of working in the IT industry. While working as a Software developer I have worked in various technologies following agile methodologies with weekly sprints. Gained knowledge working in Frontend and Backend. Exploring new technologies and concepts every day, always open to new opportunities.",
+    "Passionate about crafting scalable, high-performance web applications, I thrive at the intersection of frontend and backend development. With hands-on experience across diverse technologies and frameworks, I build solutions that are not just functional but impactful. Working in agile environments with weekly sprints, I embrace continuous learning, collaboration, and innovation to stay ahead in the ever-evolving tech landscape.",
   socialLinks: [
     {
       name: "github",
@@ -21,7 +21,7 @@ const resumeData = {
     },
   ],
   aboutme:
-    "A seasoned software developer with over 5 years of experience at SAP, proficient in Angular, React, JavaScript, and Java. Specializing in crafting innovative solutions that blend technical expertise with creative flair, driven by a passion for continuous learning and user-centric design. Committed to pushing the boundaries of innovation and making a lasting impact through work.",
+    "With 5+ years of experience, I specialize in building scalable, user-centric solutions using Angular, React, JavaScript, and Java. Passionate about blending technical expertise with creative problem-solving, I thrive on crafting seamless digital experiences. Constantly exploring cutting-edge technologies, I’m driven by continuous learning and a commitment to pushing the boundaries of innovation. Let’s build something great.",
   address: "Toronto, Ontario",
   email: "pmlakhani55@gmail.com",
   phone: "+1 519 971 1765",
