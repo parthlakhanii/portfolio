@@ -70,6 +70,7 @@ const Contact = ({ resumeData }) => {
         transition={{ duration: 0.6 }}
       >
         <motion.h2
+          className="section-title"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -110,6 +111,17 @@ const Contact = ({ resumeData }) => {
                 <i className="fas fa-map-marker-alt"></i>
                 <span>{resumeData.address}</span>
               </motion.div>
+              <motion.a
+                href="https://calendly.com/pmlakhani55/coffee-chat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-item"
+                whileHover={{ x: 10 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
+                <i className="fas fa-calendar-alt"></i>
+                <span>Book a Meeting</span>
+              </motion.a>
             </div>
             <div className="social-links">
               {resumeData.socialLinks.map((social, index) => (

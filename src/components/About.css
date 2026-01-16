@@ -12,7 +12,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  /* background: var(--gradient-bg); */
   z-index: 1;
 }
 
@@ -24,13 +23,8 @@
   z-index: 2;
 }
 
-.about-content h2 {
-  font-size: var(--font-size-heading);
-  color: var(--text-primary);
-  margin-bottom: var(--gap-large);
-  display: flex;
-  align-items: center;
-  gap: var(--gap-small);
+.about-content .section-title {
+  margin-bottom: 50px;
 }
 
 .about-title-number {
@@ -48,24 +42,31 @@
 
 .about-text {
   color: var(--text-secondary);
-  font-size: var(--font-size-normal);
-  line-height: 1.8;
+  font-size: 1.2rem;
+  line-height: 1.9;
 }
 
 .about-description p {
   margin-bottom: var(--gap-medium);
+  font-size: 1.3rem;
+  line-height: 1.9;
 }
 
 .tech-stack h3 {
-  color: var(--text-primary);
-  font-size: var(--font-size-subheading);
+  color: var(--text-heading);
+  font-size: 1.6rem;
   margin-bottom: var(--gap-medium);
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .tech-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: var(--gap-small);
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
   list-style: none;
   padding: 0;
   margin: 0 0 var(--gap-large);
@@ -75,6 +76,7 @@
   position: relative;
   padding-left: 25px;
   color: var(--text-secondary);
+  font-size: 1.3rem;
 }
 
 .tech-list li::before {
@@ -84,14 +86,19 @@
   color: var(--primary);
 }
 
-.education {
+.education-section {
   margin-top: var(--gap-large);
 }
 
-.education h3 {
-  color: var(--text-primary);
-  font-size: var(--font-size-subheading);
+.education-section h3 {
+  color: var(--text-heading);
+  font-size: 1.6rem;
   margin-bottom: var(--gap-medium);
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .education-timeline {
@@ -127,22 +134,23 @@
 
 .education-date {
   color: var(--primary);
-  font-size: var(--font-size-small);
+  font-size: 1.2rem;
   margin-bottom: var(--gap-small);
-  font-family: monospace;
+  font-family: 'Courier New', monospace;
   opacity: 0.9;
+  font-weight: 600;
 }
 
 .education-item h4 {
-  color: var(--text-primary);
+  color: var(--text-heading);
   margin-bottom: var(--gap-small);
-  font-size: var(--font-size-normal);
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .education-item p {
   color: var(--text-secondary);
-  font-size: var(--font-size-small);
+  font-size: 1.2rem;
   margin-bottom: 0;
   font-weight: 500;
 }

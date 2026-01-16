@@ -12,23 +12,49 @@ const Home = ({ resumeData }) => {
   const particlesConfig = {
     particles: {
       number: {
-        value: 50,
+        value: 80,
         density: {
           enable: true,
           value_area: 800,
         },
       },
       color: {
-        value: "#594545",
+        value: "#58a6ff",
       },
       links: {
         enable: true,
-        color: "#594545",
-        opacity: 0.3,
+        color: "#58a6ff",
+        opacity: 0.2,
+        distance: 150,
       },
       move: {
         enable: true,
-        speed: 2,
+        speed: 1.5,
+        direction: "none",
+        random: true,
+        straight: false,
+        outModes: "bounce",
+      },
+      size: {
+        value: 3,
+        random: true,
+      },
+      opacity: {
+        value: 0.5,
+        random: true,
+      },
+    },
+    interactivity: {
+      events: {
+        onHover: {
+          enable: true,
+          mode: "repulse",
+        },
+      },
+      modes: {
+        repulse: {
+          distance: 100,
+        },
       },
     },
   };

@@ -41,7 +41,9 @@ const About = ({ resumeData }) => {
         animate={inView ? "visible" : "hidden"}
       >
         <motion.div className="about-content" variants={itemVariants}>
-          <motion.h2 variants={itemVariants}>About Me</motion.h2>
+          <motion.h2 className="section-title" variants={itemVariants}>
+            About Me
+          </motion.h2>
           <div className="about-grid">
             <motion.div className="about-text-content" variants={itemVariants}>
               <div className="about-description">

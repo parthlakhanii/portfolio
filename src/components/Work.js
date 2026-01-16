@@ -32,7 +32,7 @@ const Work = ({ resumeData }) => {
         animate={inView ? "visible" : "hidden"}
         variants={itemVariants}
       >
-        <motion.h2 className="work-title" variants={itemVariants}>
+        <motion.h2 className="section-title" variants={itemVariants}>
           Work Experience
         </motion.h2>
         <div className="timeline">
